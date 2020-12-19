@@ -1,10 +1,16 @@
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
-  color: #222;
-  background-color: #fff;
+  color: #fff;
+  font-weight: bold;
+  background: linear-gradient(to right, green, skyblue, violet, yellow);
   text-align: center;
   line-height: 1.4em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 main {
